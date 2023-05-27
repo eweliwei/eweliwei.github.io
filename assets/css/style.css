@@ -539,8 +539,7 @@ section .container {
 
   .about-me img {
     padding: 20px 10px 0px 0px;
-    transform: scale(0.85);
-
+    transform: scale(0.9);
   }
 
   .about-me .content ul strong {
@@ -561,6 +560,13 @@ section .container {
 
   .about-me .content ul span {
     padding-left: calc(100% - 20%);
+  }
+}
+
+@media (max-width: 360px) {
+
+  .about-me img {
+    transform: scale(0.9);
   }
 }
 
@@ -810,7 +816,7 @@ section .container {
   display: flex;
   align-items: center;
   margin: 9px 0px;
-  padding: 10px;
+  padding: 15px 10px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
   border-radius: 10px;
