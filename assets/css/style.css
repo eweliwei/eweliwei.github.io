@@ -994,7 +994,7 @@ section .container {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
 
   .project-portfolio {
     position: relative;
@@ -1023,7 +1023,7 @@ section .container {
     font-size: 15px;
     color: #000000;
     max-width: 60%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .portfolio_img {
@@ -1069,7 +1069,24 @@ section .container {
 
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+  .portfolio_title,
+  .portfolio_content {
+    transform: translate(310px, -330px);
+    max-width: 58%;
+  }
+
+  .project-portfolio .badge {
+    transform: translate(300px, -330px);
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+}
+
+
+@media (min-width: 1400px) {
 
   .portfolio_title,
   .portfolio_content {
