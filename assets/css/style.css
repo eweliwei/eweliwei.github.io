@@ -1136,6 +1136,14 @@ footer {
   text-align: start;
 }
 
+#last-updated {
+  font-size: 9px;
+}
+
+#footer-details {
+  font-size: 11px;
+}
+
 .credits {
   font-size: 14px;
   color: #e4e4e4b6;

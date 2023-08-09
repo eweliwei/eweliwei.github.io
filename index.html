@@ -462,6 +462,12 @@
             </div>
             <div class="card-body">
               <div class="icon-box">
+                <img src="assets/img/tools/streamlit.png" alt="Streamlit logo">
+                <h3>Streamlit</h3>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="icon-box">
                 <div class="icon-wrapper">
                   <img src="assets/img/tools/microsoft-sql-server.svg" alt="SSRS logo">
                 </div>
@@ -672,6 +678,23 @@
         <div class="col">
           <div class="project-portfolio">
             <div class="portfolio_img">
+              <img src="assets/img/portfolio/FYP.png" alt="">
+            </div>
+            <h3 class="portfolio_title">Final Year Project</h3>
+            <p class="portfolio_content">A sentiment analysis tool designed to assist small and medium-sized businesses
+              (SMEs) to analyze their customer feedbacks as well as gain insights from customer reviews. The tools
+              comprises several features which includes simple data cleaning, interactive dashboards, direct review
+              prediction</p>
+            <span class="badge">Python</span>
+            <span class="badge">Streamlit</span>
+            <span class="badge">Data Mining & Machine Learning</span>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5 mt-4">
+        <div class="col">
+          <div class="project-portfolio">
+            <div class="portfolio_img">
               <img src="assets/img/portfolio/AppSheet-Hackathon.png" alt="">
             </div>
             <h3 class="portfolio_title">ApPA (AP Personal Assistance)</h3>
@@ -874,9 +897,23 @@
 <footer>
   <div class="container">
     <div class="credits">
-      <p>©2023 Ewe Li Wei. Inspired by BootstrapMade.com</p>
+      <p id="footer-details">©2023 Ewe Li Wei. Inspired by BootstrapMade.com</p>
+      <p id="last-updated">Last updated on: </p>
     </div>
   </div>
 </footer>
 
 </html>
+<script>
+  // Get the current date and time
+  var currentDate = new Date();
+
+  // Get the paragraph element where you want to display the timestamp
+  var lastUpdatedElement = document.getElementById("last-updated");
+
+  // Customize the date format
+  var options = { year: 'numeric', month: 'long' };
+
+  // Update the text content of the element with the current date
+  lastUpdatedElement.textContent += currentDate.toLocaleDateString(undefined, options);
+</script>
