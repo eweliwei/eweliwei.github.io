@@ -39,8 +39,11 @@ body::after {
 }
 
 a {
-  color: #FAA916;
-  text-decoration: none;
+  color: #e9e8e8;
+  text-decoration: underline 2px;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: #929292;
+
 }
 
 a:hover {
@@ -120,6 +123,7 @@ h6 {
   color: #EBEBEB;
   line-height: 1;
   display: inline-block;
+  text-decoration: none;
 }
 
 #header h2 {
@@ -156,6 +160,7 @@ h6 {
   font-size: 20px;
   display: flex;
   justify-content: center;
+  text-decoration: none;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   color: #F5F5F5;
