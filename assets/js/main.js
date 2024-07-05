@@ -47,7 +47,7 @@
       e.preventDefault()
 
       let navbar = select('#navbar')
-      let header = select('#header')
+      // let header = select('#header')
       let sections = select('section', true)
       let navlinks = select('#navbar .nav-link', true)
       let footer = document.querySelector('footer');

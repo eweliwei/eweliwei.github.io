@@ -130,14 +130,8 @@ h6 {
   font-size: 24px;
   padding-top: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: rgb(255, 255, 255);
-}
-
-#header h5 span {
-  color: #F5F5F5;
-  border-bottom: 3px solid #FAA916;
-  padding-bottom: 3px;
-  letter-spacing: 2px;
 }
 
 #header h5 {
@@ -146,8 +140,15 @@ h6 {
   color: rgba(255, 255, 255, 0.74);
 }
 
+#header h6 span {
+  color: #F5F5F5;
+  border-bottom: 3px solid #FAA916;
+  padding-bottom: 3px;
+  letter-spacing: 2px;
+}
+
 #header h6 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -493,7 +494,7 @@ section .container {
 .about-me .content h3 {
   padding: 20px 0px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   color: #FAA916;
 }
 
@@ -515,7 +516,7 @@ section .container {
 }
 
 .about-me .content p {
-  font-size: large;
+  font-size: medium;
   width: auto;
   text-align: justify;
   line-height: 1.6;
@@ -528,7 +529,7 @@ section .container {
 }
 
 .about-me .content ul i {
-  font-size: 25px;
+  font-size: 22px;
   padding-right: 10px;
   margin-right: 5px;
   color: #FAA916;
@@ -550,7 +551,7 @@ section .container {
 
   .about-me img {
     padding: 20px 10px 0px 0px;
-    transform: scale(0.9);
+    transform: scale(0.5);
   }
 
   .about-me .content ul strong {
@@ -662,7 +663,7 @@ section .container {
 
 /* Background Section */
 .background .background-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -678,7 +679,7 @@ section .container {
 
 .background .background-item h4 {
   line-height: 1.6;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -831,7 +832,7 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
   border-radius: 10px;
-  width: calc(100% - 40px);
+  width: calc(100% - 10px);
 }
 
 .moreskills .icon-box:hover {
