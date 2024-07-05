@@ -876,8 +876,6 @@ section .container {
 
 }
 
-
-
 /* Project Protfolio Section*/
 .project-portfolio {
   position: relative;
@@ -918,8 +916,8 @@ section .container {
 .portfolio_content {
   padding-top: 5px;
   transform: translate(380px, -330px);
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 600;
   color: #ffffff;
   max-width: 60%;
   margin-right: 5px;
@@ -931,7 +929,7 @@ section .container {
 
 .portfolio_content {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 200;
   text-align: justify;
 }
 
@@ -957,7 +955,7 @@ section .container {
   border-radius: 10px;
   cursor: pointer;
   margin: 20px 0;
-  padding: 20px 10px;
+  padding: 20px 15px;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
@@ -1000,7 +998,7 @@ section .container {
   background-color: #9df1dff0;
   font-size: 16px;
   color: #000000;
-  max-width: 60%;
+  max-width: 70%;
   margin-top: 1rem;
   padding: 5px;
 }
